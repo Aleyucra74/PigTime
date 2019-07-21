@@ -14,6 +14,7 @@ body {
     margin: 0;
 }
 
+/* HEADER */
 header {
     display: flex;
     width: 100%;
@@ -44,14 +45,140 @@ a {
     color: #47525E;
 }
 
+/* SEÇÃO DAS FOTOS */
 .secFotos {
     width: 100%;
     padding: 4% 2%;
     display: inline-flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .secFotos>img {
     width: 31%;
     padding: 0 1px;
+}
+
+/* SEÇAÕ DO SOBRE */
+.secSobre {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    display: flex;
+    float: left;
+}
+
+.secSobre>article {
+    width: 31%;
+    padding: 1%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+.secSobre div {
+    width: 22%;
+    text-align: inherit;
+    padding: 1%;
+    display: inline-block;
+}
+
+.secSobre div figure {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 25%;
+}
+
+div article {
+    margin: 5%;
+}
+
+/* SEÇÃO DO FUNCIONANMENTO */
+.secFunc {
+    width: 100%;
+    padding: 4% 2%;
+    color: #47525E;
+    display: inline-grid;
+    justify-content: center;
+    margin: 0;
+}
+
+iframe {
+    width: 855px;
+    height: 480px;
+}
+
+/* SEÇÃO DAS PERGUNTAS */
+.secPerg {
+    width: 100%;
+    padding: 0 10% 4% 10%;
+}
+
+.secPerg>h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\2227';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2228";
+}
+
+.painel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* SEÇÃO DE REGRAS */
+
+.secRegras {
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.secRegras>h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.secRegras>div {
+    border: 2px solid #47525E;
+    border-radius: 5px;
+    padding: 0 5%;
+    line-height: 2;
 }
