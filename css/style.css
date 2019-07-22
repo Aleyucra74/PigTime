@@ -187,20 +187,29 @@ iframe {
 
 footer {
     width: 100%;
-    display: flex;
     background-color: #47525E;
 }
 
 .ftrComun {
-    display: grid;
-    padding: 5% 15%;
-}
-
-.ftrComun div {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
 }
 
 footer a {
+    display: flex;
+    flex-direction: column;
     color: #fff;
-    margin: 0 1px;
+    margin: 2px 2px;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+#socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
