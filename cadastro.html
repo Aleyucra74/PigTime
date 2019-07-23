@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/cadastro.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="./Imagens/logo.png" alt="logoPigTime" id="logoPigTime">
+        <nav>
+            <div class="navLeft">
+                <a href="#">Home</a>
+                <a href="#">Como funciona</a>
+            </div>
+            <div class="navRight">
+                <a href="#">Login</a>
+                <a href="#">Cadastre-se</a>
+                <a href="#">Ajuda</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="#" class="main-form">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control">
+
+                </div>
+                <div class="col-sm-6">
+
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" class="form-control">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo" class="form-control">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="CPF">CPF</label>
+                <input type="number" name="cpf" id="cpf" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Repetir e-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="numero" class="form-control">
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <section class="ftrComun">
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Preço</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pesquisar</a></li>
+                    <li><a href="#">Condições</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <p>Receba informações</p>
+                <form action="#" name="formNewsletter" id="formNewsletter">
+                    <input type="email" name="emailaddress" placeholder="Digite seu e-mail">
+                    <button type="submit">Subscrever</button>
+                </form>
+            </div>
+            <div class="footerSocialLinks">
+                <a href="http://facebook.com">
+                    <img src="./Imagens/social-face.png" alt="link to facebook" align="right">
+                </a>
+                <a href="http://twitter.com">
+                    <img src="./Imagens/social-twitter.png" alt="link to twitter" align="right">
+                </a>
+                <a href="http://instagram.com">
+                    <img src="./Imagens/social-insta.png" alt="link to instagram" align="right">
+                </a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
