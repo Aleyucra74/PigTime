@@ -54,6 +54,12 @@ main {
 .container {
     margin: 20px auto 20px auto;
     border: 2px solid #ccc;
+    padding: 20px;
+}
+
+.formCadastro {
+    display: flex;
+    justify-content: center;
 }
 
 .row {
@@ -62,7 +68,7 @@ main {
 
 #btnEnviarForm {
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
     justify-content: center;
 }
 
