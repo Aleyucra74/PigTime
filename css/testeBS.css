@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 * {
     box-sizing: border-box;
 }
@@ -5,18 +7,100 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #ccc;
+}
+
+.navHeader {
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    padding: 0;
+}
+
+header a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header img {
+    width: 20%;
 }
 
 /* SIDEBAR */
 
 #sidebar {
-    background-color: #ccc;
+    padding-top: 20px;
+    border-right: 1px solid #ccc;
 }
 
 .nav-link[data-toggle].collapsed:after {
-    content: "X";
+    content: "▾";
+    float: right;
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+    float: right;
 }
 
-.nav-link[data-toggle]:not(.collapsed):after {
-    content: "X";
+#fotoPerfil {
+    background-color: #ccc;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.menuHeader {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 0.9rem;
+    position: absolute;
+    width: 100%;
+    background-color: #47525E;
+}
+
+.ftrComun {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+}
+
+.ftrComun ul li {
+    list-style: none;
+    margin: 2px;
+}
+
+.ftrComun a {
+    color: #fff;
+}
+
+.ftrComun p {
+    color: #fff;
+}
+
+.newsletter p {
+    margin-bottom: 5px;
 }

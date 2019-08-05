@@ -5,34 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/">
+    <link rel="stylesheet" href="./css/testeBS.css">
     <title>Teste Gabriel</title>
 </head>
 <body>
-    <!-- <div class="container-fluid">
+    <header>
+        <img src="./Imagens/logo.png" alt="logoPigTime" id="logoPigTime">
+        <nav class="navHeader">
+            <div class="navLeft">
+
+            </div>
+            <div class="navRight">
+                <button class="btn btn-primary"><a href="#">Solicitar Serviço</a> </button>
+                <input type="text" id="horasAc" placeholder="$_POST horas">
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
         <div class="row">
-            <nav class="col-2 min-vh-100 bg-light" id="sidebar">
-                <ul class="nav flex-column flex-nowrap">
+            <nav class="col-2 min-vh-100" id="sidebar">
+                <div id="fotoPerfil">
+                </div>
+                <ul class="nav flex-column flex-nowrap"> <!-- Começo do Submenu -->
                     <li class="nav-item">
-                        <a class="nav-link collapsed text-dark" href="#submenu1" data-toggle="collapse" data-target="#submenu1">Meus Tempos</a>
-                        <div class="collapse" id="submenu1" aria-expanded="false">
-                            <ul class="flex-column p1-2 nav">
-                                <li class="nav-item"><a href="#" class="nav-link text-dark py-0">Visualizar Serviço</a></li>
+                        <a class="nav-link text-dark collapsed menuHeader" href="#submenu1" data-toggle="collapse" data-target="#submenu1">Meus Tempos</a>
+                        <div class="collapse bg-light" id="submenu1" aria-expanded="false">
+                            <ul class="flex-column pl-2 nav">
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Visualizar Serviços</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Solicitar Serviços</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Minha Classificação</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Meus Serviços Favoritos</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Chat</a>
+                        <a class="nav-link text-dark menuHeader" href="#">Chat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Meu Perfil</a>
+                        <a class="nav-link text-dark collapsed menuHeader" href="submenu2#" data-toggle="collapse" data-target="#submenu2">Meu Perfil</a>
+                        <div class="collapse bg-light" id="submenu2" aria-expanded="false">
+                            <ul class="flex-column pl-2 nav">
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Perfil</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Configurações</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark py-0" href="#">Ajuda</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>    
             </nav>
         </div>
-    </div> -->
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <footer class="d-flex justify-content-center">
+            <section class="ftrComun">
+                <div class="col-4">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Preço</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Pesquisar</a></li>
+                        <li><a href="#">Condições</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Comunidade</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter col-4">
+                    <p>Receba informações</p>
+                    <form action="#" name="formNewsletter" id="formNewsletter">
+                        <input type="email" name="emailaddress" placeholder="Digite seu e-mail">
+                        <button type="submit">Subscrever</button>
+                    </form>
+                </div>
+                <div class="footerSocialLinks col-4">
+                    <a href="http://facebook.com">
+                        <img src="./Imagens/social-face.png" alt="link to facebook" align="right">
+                    </a>
+                    <a href="http://twitter.com">
+                        <img src="./Imagens/social-twitter.png" alt="link to twitter" align="right">
+                    </a>
+                    <a href="http://instagram.com">
+                        <img src="./Imagens/social-insta.png" alt="link to instagram" align="right">
+                    </a>
+                </div>
+            </section>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
