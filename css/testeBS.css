@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    background-color: #ccc;
+}
+
+.nav-link[data-toggle].collapsed:after {
+    content: "X";
+}
+
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "X";
+}
