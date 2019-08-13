@@ -1,0 +1,49 @@
+/* FOOTER */
+
+.page-footer {
+    background-color: #47525E;
+    padding: 2%;
+}
+
+.icons {
+    display: inline;
+}
+
+.page-footer a {
+    color: #fff;
+}
+
+#pNews {
+    color: #fff;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 2%;
+    font-size: 200%;
+    width: 18%;
+    height: 20%;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #c32aa3;
+    color: white;
+}
