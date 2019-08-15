@@ -1,0 +1,21 @@
+/* HEADER */
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+header a {
+    margin: 1%;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.menuItemsLeft {
+    display: inline;
+    margin-left: 5%;
+    margin-right: 35%;
+}
+
+.menuItemsRight {
+    display: inline;
+}
