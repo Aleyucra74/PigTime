@@ -11,7 +11,7 @@
         margin: auto;
         transform: translateX(-100%);
         transition: all ease 0.25s;
-        &.open {
+        &.open{
             transform: translateX(0);
         }
     }

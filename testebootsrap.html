@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/testeBS.css">
-    <link rel="stylesheet" href="./css/testeBs.scss">
+    <!-- <link rel="stylesheet" href="./css/testeBs.scss"> -->
     <title>Teste Gabriel</title>
 </head>
 <body>
@@ -25,23 +25,25 @@
     </header> -->
 
     <div class="container-fluid m-0 p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-lg-light justify-content-sm-start fixed-top">
                     <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2" href="#">Navbar</a>
                     <button class="navbar-toggler align-self-start" type="button" >
                       <span class="navbar-toggler-icon"></span>
                     </button>
                   
-                    <div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end bg-dark p-3 p-lg-0 mt-5 mt-lg-0 mobileMenu" id="navbarSupportedContent">
-                      <ul class="navbar-nav align-self-stretch">
+                    <div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end bg-light p-3 p-lg-0 mt-5 mt-lg-0 mobileMenu" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-lg-auto align-self-stretch">
+                        <li class="bg-dark rounded-circle align-self-center d-lg-none" style="height: 75px;width: 75px;">
+                        </li>
+                        <li class="align-self-center">Marcelo Freitas</li>
+                        <div class="dropdown-divider"></div>
                         <li class="nav-item active">
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
+                        <div class="dropdown-divider"></div>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            Meus Tempos
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Action</a>
@@ -50,9 +52,22 @@
                             <a class="dropdown-item" href="#">Something else here</a>
                           </div>
                         </li>
+                        <div class="dropdown-divider"></div>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          <a class="nav-link" href="#">Chat</a>
                         </li>
+                        <div class="dropdown-divider"></div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Meu Perfil
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,8 +75,7 @@
                       </form>
                     </div>
                 </nav>
-    </div>
-        
+                <div class="overlay"></div>
     </div>
 
     <!-- <footer class="d-flex justify-content-center">
