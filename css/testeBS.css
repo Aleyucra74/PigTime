@@ -43,41 +43,6 @@ header img {
     width: 20%;
 }
 
-/* SIDEBAR */
-
-.teste {
-    background-color: #ccc;
-
-}
-
-#sidebar {
-    padding-left: 0;
-    padding-top: 20px;
-    border-right: 1px solid #ccc;
-}
-
-.nav-link[data-toggle].collapsed:after {
-    content: "▾";
-    float: right;
-}
-.nav-link[data-toggle]:not(.collapsed):after {
-    content: "▴";
-    float: right;
-}
-
-#fotoPerfil {
-    background-color: #ccc;
-    margin: 0 auto;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.menuHeader {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-}
 
 /* FOOTER */
 
