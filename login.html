@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./Imagens/logo.png" alt="logoPigTime" id="logoPigTime">
+
+            <div class="menuItemsLeft">
+                <a href="index.html">Home</a>
+                <a href="#">Como funciona</a>
+            </div>
+            <div class="menuItemsRight">
+                <a href="#">Login</a>
+                <a href="cadastro.html">Cadastre-se</a>
+                <a href="#">Ajuda</a>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <form method="post">
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                </div>
+                <div class="col-sm-12 col-md-4 list-group">
+                    <label for="email">E-mail</label>
+                    <input value="" type="text" class="form-control" id="email" name="email" placeholder="Digite o nome do usuário">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-sm-12 col-md-4 list-group">
+                    <label value="" for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite uma senha para o usuário">
+                </div>
+
+            </div>
+            <div id="fButtons">
+                <button class="btn btn-primary" type="submit">Entrar</button>
+                <a class="btn btn-primary" href="cadastro.html" role="button">Cadastrar</a>
+            </div>
+        </form>
+    </div>
+
+    <footer class="page-footer">
+
+        <div class="row">
+            <div class="col-md-3">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Preço</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pesquisar</a></li>
+                    <li><a href="#">Condições</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-3">
+                <p id="pNews">Receba informações</p>
+                <form action="#" name="formNewsletter" id="formNewsletter">
+                    <input type="email" name="emailaddress" placeholder="Digite seu e-mail">
+                    <button type="submit">Subscrever</button>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li class="icons">
+                        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                    </li>
+                    <li class="icons">
+                        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                    </li>
+                    <li class="icons">
+                        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
