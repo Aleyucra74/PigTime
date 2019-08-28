@@ -21,21 +21,7 @@ h1 {
     background-color: #EDEDED;
     font-family: sans-serif;
     text-align: center;
-    padding: 10px;
-}
-
-#evaluation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 960px;
-    margin: 30px auto;
-    border-bottom: 2px solid #D7D7D7;
-}
-
-#evaluation img {
-    width: 50px; 
+    padding: 15px;
 }
 
 #evaluation1 {
@@ -45,7 +31,7 @@ h1 {
     align-items: center;
     background-color: #13CE66;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
@@ -56,7 +42,7 @@ h1 {
     justify-content: space-around;
     background-color: #9D8B1C;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
@@ -67,7 +53,7 @@ h1 {
     justify-content: space-around;
     background-color: #5483AC;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     margin-bottom: 30px;
 }

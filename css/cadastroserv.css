@@ -8,9 +8,7 @@ body {
 } 
 #serviceForm input {
     border: 2px solid #343F4B;
-    padding: 10px;
-    border-radius: 5px;
-    color:grey;    
+    border-radius: 5px;  
 }
 
 .btn-primary {
@@ -27,7 +25,7 @@ h1 {
     padding: 15px;
     font-weight: normal;
 } 
-textarea {
+#formServ {
     border: 2px solid #343F4B;
     border-radius: 5px;
 }
