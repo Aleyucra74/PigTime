@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+} 
+#serviceForm input {
+    border: 2px solid #343F4B;
+    padding: 10px;
+    border-radius: 5px;
+    color:grey;    
+}
+
+.btn-primary {
+    background-color: #084D6E;
+}
+
+
+h1 {
+    background-color: #084D6E;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-weight: normal;
+} 
+textarea {
+    border: 2px solid #343F4B;
+    border-radius: 5px;
+}
+#hourStart::before {
+    content: "Hora inicial";
+    color: grey;   
+    margin-right: 1vw;
+}
+#hourEnd::before {
+    content: "Hora final";
+    color:grey;
+    margin-right: 1vw;
+}
+

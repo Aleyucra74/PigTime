@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #47525E;
+    font-family: sans-serif;
+    font-size: 2.7rem;
+}
+.btn-primary {
+    background-color: #084D6E;
+}
+
+#about article {
+    background-color: #EDEDED;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#evaluation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 960px;
+    margin: 30px auto;
+    border-bottom: 2px solid #D7D7D7;
+}
+
+#evaluation img {
+    width: 50px; 
+}
+
+#evaluation1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #13CE66;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#evaluation2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9D8B1C;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#evaluation3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5483AC;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#evaluation p {
+    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+ .rightDiv:nth-child(3) {
+    border-left: 1px solid white;
+}
+#evaluation3 img {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 130px;
+}
+
+.big {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 5px;
+}
+table tr, td {
+    padding: 15px;
+    background-color: #084D6E;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+td {
+    width: 300px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-left: 2px solid #D7D7D7;
+}
+.holding {
+    background-color: #9AD408;
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    width: 100px;
+}
+.approved {
+    background-color: #059F39;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    width: 100px;
+}
