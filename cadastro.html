@@ -18,20 +18,20 @@
 </head>
 
 <body>
+    <header>
+        <img src="./Imagens/logo.png" alt="logoPigTime" id="logoPigTime">
+        
+        <div class="menuItemsLeft">
+            <a href="index.html">Home</a>
+            <a href="#">Como funciona</a>
+        </div>
+        <div class="menuItemsRight">
+            <a href="login.html">Login</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#">Ajuda</a>
+        </div>
+    </header>
     <div class="container">
-        <header>
-            <img src="./Imagens/logo.png" alt="logoPigTime" id="logoPigTime">
-
-            <div class="menuItemsLeft">
-                <a href="index.html">Home</a>
-                <a href="#">Como funciona</a>
-            </div>
-            <div class="menuItemsRight">
-                <a href="login.html">Login</a>
-                <a href="#">Cadastre-se</a>
-                <a href="#">Ajuda</a>
-            </div>
-        </header>
     </div>
     <main>
         <form action="#" name="formCadastro" id="formCadastro">
@@ -39,107 +39,89 @@
             <div class="container">
                 <div class="formCadastro row">
                     <div class="col-sm-3">
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" class="form-control">
+                        <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome">
                     </div>
                     <div class="col-sm-4">
-                        <label for="sobrenome">Sobrenome</label>
-                        <input type="text" name="sobrenome" id="sobrenome" class="form-control">
+                        <input type="text" name="sobrenome" id="sobrenome" class="form-control" placeholder="Sobrenome">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
                     <div class="col-sm-3">
-                        <label for="RG">RG</label>
-                        <input type="number" name="rg" id="rg" class="form-control">
+                        <input type="number" name="rg" id="rg" class="form-control" placeholder="RG">
                     </div>
                     <div class="col-sm-1">
                     </div>
                     <div class="col-sm-3">
-                        <label for="CPF">CPF</label>
-                        <input type="number" name="cpf" id="cpf" class="form-control">
+                        <input type="number" name="cpf" id="cpf" class="form-control" placeholder="CPF">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
-
                     <div class="col-sm-2">
-                        <label for="sexo">Sexo</label>
                         <select name="sexo" id="sexo" class="form-control">
+                            <option value="sexo" selected disabled hidden>Sexo</option>
                             <option value="masculino">Masculino</option>
                             <option value="feminino">Feminino</option>
                             <option value="outro">Outro</option>
                         </select>
                     </div>
                     <div class="col-sm-5">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" class="form-control">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="E-mail">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
-
                     <div class="col-sm-2">
                     </div>
                     <div class="col-sm-5">
-                        <label for="email">Repetir e-mail</label>
-                        <input type="email" name="email" id="email" class="form-control">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Repetir e-mail">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
                     <div class="col-sm-4">
-                        <label for="endereco">Endereço</label>
-                        <input type="text" name="endereco" id="endereco" placeholder="Av, Rua..." class="form-control">
+                        <input type="text" name="endereco" id="endereco" placeholder="Av, Rua..." class="form-control" placeholder="Endereço">
                     </div>
                     <div class="col-sm-1">
-                        <label for="numero">Número</label>
-                        <input type="number" name="numero" id="numero" class="form-control">
+                        <input type="number" name="numero" id="numero" class="form-control" placeholder="N°">
                     </div>
                     <div class="col-sm-2">
-                        <label for="complemento">Complemento</label>
-                        <input type="number" name="complemento" id="complemento" placeholder="Ap, BL, Cj..." class="form-control">
+                        <input type="number" name="complemento" id="complemento" placeholder="Ap, BL, Cj..." class="form-control" placeholder="Complemento">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
                     <div class="col-sm-3">
-                        <label for="bairro">Bairro</label>
-                        <input type="text" name="bairro" id="bairro" class="form-control">
+                        <input type="text" name="bairro" id="bairro" class="form-control" placeholder="Bairro">
                     </div>
                     <div class="col-sm-3">
-                        <label for="cidade">Cidade</label>
-                        <input type="text" name="cidade" id="cidade" class="form-control">
+                        <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Cidade">
                     </div>
                     <div class="col-sm-1">
-                        <label for="uf">UF</label>
-                        <input type="text" name="uf" id="uf" class="form-control">
+                        <input type="text" name="uf" id="uf" class="form-control" placeholder="UF">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
                     <div class="col-sm-3">
-                        <label for="telefone">Telefone 1</label>
-                        <input type="tel" name="telCadastro1" id="telCadastro1" class="form-control">
+                        <input type="tel" name="telCadastro1" id="telCadastro1" class="form-control" placeholder="Telefone 1">
                     </div>
                     <div class="col-sm-1">
                     </div>
                     <div class="col-sm-3">
-                        <label for="senha">Senha</label>
-                        <input type="password" name="senha" id="senha" class="form-control">
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha">
                     </div>
                 </div>
 
                 <div class="formCadastro row">
                     <div class="col-sm-3">
-                        <label for="telefone">Telefone 2</label>
-                        <input type="tel" name="telCadastro2" id="telCadastro2" class="form-control">
+                        <input type="tel" name="telCadastro2" id="telCadastro2" class="form-control" placeholder="Telefone 2">
                     </div>
                     <div class="col-sm-1">
                     </div>
                     <div class="col-sm-3">
-                        <label for="senha">Repetir senha</label>
-                        <input type="password" name="senha" id="senha" class="form-control">
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Repetir senha">
                     </div>
                 </div>
 
@@ -155,7 +137,7 @@
                 </div>
 
                 <div id="btnEnviarForm">
-                    <input class="btn btn-primary" type="submit" value="Enviar" style="width: 15%">
+                    <input class="btn btn-primary form-control" type="submit" value="Enviar" style="width: 15%">
                     <label><input type="checkbox" value="liOsTermos"> Li e aceito</label>
                 </div>
             </div>
