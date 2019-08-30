@@ -10,17 +10,20 @@
     <link rel="stylesheet" href="./css/menuMobile.css">
     <!-- <link rel="stylesheet" href="./css/login.css"> -->
     <link rel="stylesheet" href="./css/headerr.css">
-    <title>Teste Gabriel</title>
+    <title>Teste Includes e Bootstrap</title>
 </head>
 <body>
     <!-- Incluindo header -->
     <?php
       include ('./layouts/header.php');
     ?>
-
     <!-- Incluindo menuMobile -->
     <?php
       include ('./layouts/menuMobile.php');
+    ?>
+    <!-- Incluindo MenuLaterl -->
+    <?php
+      include ('./layouts/menuLateral.php');
     ?>
     <!-- Incluindo Footer -->
     <?php
