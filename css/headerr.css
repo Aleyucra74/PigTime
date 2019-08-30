@@ -1,4 +1,18 @@
-/* HEADER */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#logoPigTime {
+    width: 20%;
+    margin: 0 0 1% 0;
+}
 
 header {
     border-bottom: 2px solid #ccc;
